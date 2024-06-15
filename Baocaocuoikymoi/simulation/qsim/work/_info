@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\lession\TKLLS\FloatingPoint\simulation\qsim
+vALU_48bit
+Z1 !s100 5Mo>Og1ZoAAYOTTAzYT:l3
+Z2 IE3JH^?AhXAET>GOcB]m^c3
+Z3 VR?EOYf;26c:55SYO=z>7C3
+Z4 dF:\lession\TKLLS\FloatingPoint\simulation\qsim
+Z5 w1687495309
+Z6 8FloatingPoint.vo
+Z7 FFloatingPoint.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|FloatingPoint.vo|
+Z10 o-work work -O0
+Z11 n@a@l@u_48bit
+Z12 !s108 1687495309.488000
+Z13 !s107 FloatingPoint.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vALU_48bit_vlg_check_tst
+Z14 !s100 z:T<XYB:gJJ[aD@GXoKhn0
+Z15 IZjV[P=<amj@[1Xli=^7YG1
+Z16 VfC_;gBLchDZl7_Jolmdf;1
+R4
+Z17 w1687495308
+Z18 8FloatingPoint.vt
+Z19 FFloatingPoint.vt
+L0 61
+R8
+r1
+31
+Z20 !s108 1687495309.583000
+Z21 !s107 FloatingPoint.vt|
+Z22 !s90 -work|work|FloatingPoint.vt|
+R10
+Z23 n@a@l@u_48bit_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vALU_48bit_vlg_sample_tst
+Z24 !s100 GXCD@bUaCCZ^GF;=90d3S1
+Z25 I9oPPlY0DTEZm4URFcf<Sd3
+Z26 VGTc5@Z3lUmNL0@K?7UF3C2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z27 n@a@l@u_48bit_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vALU_48bit_vlg_vec_tst
+Z28 IYVMcGI>Mf2mHiTGX6Fn`m2
+Z29 VF64fm9UN=kLIQ?g2c2hg=3
+R4
+R17
+R18
+R19
+Z30 L0 1001
+R8
+r1
+31
+R20
+R21
+R22
+R10
+Z31 n@a@l@u_48bit_vlg_vec_tst
+Z32 !s100 6FgNKN46>_l=B612b1nWa3
+!i10b 1
+!s85 0
+!s101 -O0
+vMantissa
+Z33 IOGP4@=n9D:3<=6S:0IKff1
+Z34 V5PUXW7NeA5E[mjc^?:6Ha0
+R4
+Z35 w1687884087
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z36 n@mantissa
+!i10b 1
+Z37 !s100 `MAXWE?nz==WI5?1M=N=e2
+!s85 0
+Z38 !s108 1687884088.439000
+R13
+!s101 -O0
+vMantissa_vlg_check_tst
+!i10b 1
+!s100 SmC<GEhE?7BbP;Tn?SL`A1
+IO6Wo5HlSo>_[MdjBC6MOf1
+Vek>1H?X52gHZR>5lmGR?g2
+R4
+Z39 w1687884086
+R18
+R19
+L0 61
+R8
+r1
+!s85 0
+31
+Z40 !s108 1687884088.614000
+Z41 !s107 FloatingPoint.vt|
+R22
+!s101 -O0
+R10
+n@mantissa_vlg_check_tst
+vMantissa_vlg_sample_tst
+!i10b 1
+!s100 D=gdFD]S_]C3HPzZjkkQ_3
+IzH?Oal_047gEK1hQjEZGz1
+V;i=6?`>cZF00B1?S1o9Vl3
+R4
+R39
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R40
+R41
+R22
+!s101 -O0
+R10
+n@mantissa_vlg_sample_tst
+vMantissa_vlg_vec_tst
+!i10b 1
+!s100 _c9Z<6@P4Kh3iXW>GzTe21
+I]8?l8?zSLJ`OfI:oZJRH=0
+Vib27Gj57Va2LAWJcYmKbD3
+R4
+R39
+R18
+R19
+L0 1028
+R8
+r1
+!s85 0
+31
+R40
+R41
+R22
+!s101 -O0
+R10
+n@mantissa_vlg_vec_tst

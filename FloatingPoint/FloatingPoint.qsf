@@ -1,0 +1,178 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 09:00:01  June 23, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		FloatingPoint_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY Main
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:00:01  JUNE 23, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 672
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name BDF_FILE FloatingPointDivision/FA_49bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/BitDau.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/ConvertBus22bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Register32bit_Nap.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/Sub_24bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/E_Normalizer_Division.bdf
+set_global_assignment -name BDF_FILE Tuan/FA_8bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/Start_Zero.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/SignEnable.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/Shifter_48bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/S_Shifter.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/RegSign.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/Opcode.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/OE.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/Mux41_48bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/Mux41_1bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/Mux21_48bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/Mux21_1bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/Mantissa.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/FloatingPointMultiplication.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/FA_48bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/FA_9bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/FA_1bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/ExtendedSigned48bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/ConvertBus48bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/Control.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/BoTru_48bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/BoTru_9bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/BoTru_8bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/BoTru_1_48bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/BoCong_48bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/BoCong_1_48bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/AND_48bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/ALU_48bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Start_Zero_New.bdf
+set_global_assignment -name BDF_FILE Tuan/D0_control_New.bdf
+set_global_assignment -name BDF_FILE Tuan/SoSanhBang48bit.bdf
+set_global_assignment -name BDF_FILE Tuan/SoSanhBang1Bit.bdf
+set_global_assignment -name BDF_FILE Tuan/SoSanh8bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Register48bit.bdf
+set_global_assignment -name BDF_FILE Tuan/register16bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Register4_48bit.bdf
+set_global_assignment -name BDF_FILE Tuan/W_addr.bdf
+set_global_assignment -name BDF_FILE Tuan/RA_RB_RC.bdf
+set_global_assignment -name BDF_FILE Tuan/Mux4to1_48bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Mux4to1_16bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Mux2to1_48bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Mux2to1_16bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Mux2to1_1bit.bdf
+set_global_assignment -name BDF_FILE Tuan/IE_WE_Mul.bdf
+set_global_assignment -name BDF_FILE Tuan/decoder.bdf
+set_global_assignment -name BDF_FILE Tuan/Adder_upper_4bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Adder_1bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Mux2to1_4bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Mux2to1_24bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Normalizer.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Tuan/TestMantisa.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Tuan/MachTong.vwf
+set_global_assignment -name BDF_FILE Tuan/Register32bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Register8bit.bdf
+set_global_assignment -name BDF_FILE Tuan/Register1bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/ExtendedDivisor.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/SoSanh25.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/D3.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/D2.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/D1.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/D0.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/Start_Is25.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/IE_Divison.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/WE_Division.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/W_Addr_Division.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/RA_Division.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/PlusSignal_Division.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/DivideSignal_Divison.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/Opcode_Division.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/Shifter_Division.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/OE_Division.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/Nap_Division.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/RB_Division.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/Control_Division.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FloatingPointDivision/TestControlDivision.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FloatingPointDivision/Test_Start_Is25.vwf
+set_global_assignment -name BDF_FILE FloatingPointDivision/DatapathDivision.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/Mantissa_Division.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FloatingPointDivision/TestMatissaDivision.vwf
+set_global_assignment -name BDF_FILE FloatingPointDivision/Mux21_24bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/ConvertBus24bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/ShifRight_1bit_24bit.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/ShiftRight_Divisor.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/ShiftLeft_Quotient.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/ShiftLeft_Quotient2.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FloatingPointDivision/TestShiftLeftQ.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FloatingPointDivision/TestShiftRightQ.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FloatingPointDivision/TestShiftRightDivisor.vwf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/Exponent.bdf
+set_global_assignment -name BDF_FILE FloatingPointMultiplication/Sign.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/Exponent_Division.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/FloatingPointDivision.bdf
+set_global_assignment -name BDF_FILE FloatingPointDivision/ConvertBus23bit.bdf
+set_global_assignment -name BDF_FILE Main.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Test1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test2.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test3.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test4.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test5.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test6.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test7.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test8.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test9.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test10.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test11.vwf
+set_global_assignment -name BDF_FILE Tuan/Mux2to1_32bit.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test12.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCase/Multiplication/Test13.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "F:/lession/TKLLS/ProjectCK/FloatingPoint/TestCase/Multiplication/Test13.vwf"
