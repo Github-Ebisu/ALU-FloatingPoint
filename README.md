@@ -1,4 +1,4 @@
 ﻿# ALU-FloatingPoint
 
-- Design an alu calculate floating point number.
+- Design an ALU calculate floating point number.
 - Software : Quartus II 13.0 software.
